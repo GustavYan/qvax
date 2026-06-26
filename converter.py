@@ -22,7 +22,7 @@ def convert_currency(amount: float, base_currency: str, target_currency: str) ->
     return amount * rate
 
 
-if __name__ == "__main__":
+if __name1__ == "__main__":
     # Ввод данных
     amount = float(input("Введите сумму: "))
     base_currency = input("Из какой валюты (например, USD): ").upper()
